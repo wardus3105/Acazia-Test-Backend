@@ -1,3 +1,6 @@
+let a = [4,0,1,-2,3];
+let n = 5;
+
 const mutateTheArray = (n,a) => {
     let b = [];
     for(let i=0;i<n;i++) {
@@ -6,7 +9,5 @@ const mutateTheArray = (n,a) => {
     return b;
 };
 
-let a = [4,0,1,-2,3];
-let n = 5;
 let b = mutateTheArray(n,a);
 console.log(b);
